@@ -1,0 +1,17 @@
+# Site settings
+title: HyG
+brief-intro: Dummy Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://nanosrc.github.io" # the base hostname & protocol for your site
+
+# other links
+twitter_username: 
+facebook_username: 
+github_username:  nanosrc
+email: 
+weibo_username: 
+zhihu_username: 
+linkedIn_username: 
+dribbble_username:
+
+description_footer: 没有读呢了说！
