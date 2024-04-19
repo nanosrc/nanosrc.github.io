@@ -1,17 +1,29 @@
-# Site settings
-title: HyG
-brief-intro: Dummy Developer
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://nanosrc.github.io" # the base hostname & protocol for your site
+title: no style, please! # name of the site
+author: nanosrc # name of site's author
+email:  # email of site's author
+url: https://nanosrc.github.io # root address of the site
+baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  没有读呢了说！
 
-# other links
-twitter_username: 
-facebook_username: 
-github_username:  nanosrc
-email: 
-weibo_username: 
-zhihu_username: 
-linkedIn_username: 
-dribbble_username:
+permalink: /:slug.html
 
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+
+theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
+
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  
 description_footer: 没有读呢了说！
